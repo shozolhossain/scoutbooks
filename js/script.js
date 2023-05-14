@@ -30,6 +30,15 @@ window.onload = () => {
     }
 }
 
+fadeOut();
+
+function loader() {
+    document.querySelector('.loader-container').classList.add('active');
+}
+
+function fadeOut() {
+    setTimeout(loader, 4000);
+}
 
 var swiper = new Swiper(".books-slider", {
     loop: true,
@@ -80,6 +89,82 @@ var swiper = new Swiper(".featured-slider", {
         },
         1024: {
             slidesPerView: 4,
+        },
+
+    },
+});
+
+
+var swiper = new Swiper(".allbooks-slider", {
+    spaceBetween: 10,
+    loop: true,
+    conteredSlides: true,
+    autoplay: {
+        delay: 9500,
+        disableONIneraction: false,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+
+        },
+        768: {
+            slidesPerView: 2,
+
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+
+    },
+});
+
+var swiper = new Swiper(".reviews-slider", {
+    spaceBetween: 10,
+    grabCursol: true,
+    loop: true,
+    conteredSlides: true,
+    autoplay: {
+        delay: 9500,
+        disableONIneraction: false,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+
+        },
+        768: {
+            slidesPerView: 2,
+
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+
+    },
+});
+
+
+var swiper = new Swiper(".blogs-slider", {
+    spaceBetween: 10,
+    grabCursol: true,
+    loop: true,
+    conteredSlides: true,
+    autoplay: {
+        delay: 9500,
+        disableONIneraction: false,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+
+        },
+        768: {
+            slidesPerView: 2,
+
+        },
+        1024: {
+            slidesPerView: 3,
         },
 
     },
