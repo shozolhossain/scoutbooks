@@ -682,10 +682,10 @@ section {
 }
 
 .reviews .reviews-slider .box .share-2 a {
-    height: 1.8rem;
-    width: 1.8rem;
-    line-height: 1.8rem;
-    font-size: .9rem;
+    height: 2.7rem;
+    width: 2.7rem;
+    line-height: 2.7rem;
+    font-size: 1.6rem;
     color: #fff;
     background: var(--light-color);
     margin: 0 .2rem;
