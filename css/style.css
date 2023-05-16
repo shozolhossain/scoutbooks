@@ -8,7 +8,9 @@
     --border: .1rem solid rgba(0, 0, 0, .1);
     --border-hover: .1rem solid var(--black);
     --box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    --background-color: #eeeded;
 }
+
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -839,6 +841,151 @@ section {
     height: 40rem;
 }
 
+/*dark mode*/
+
+
+/*about section*/
+
+/*contect section*/
+
+
+.Container {
+
+    width: 100%;
+    background: var(--background-color);
+    border-radius: 6px;
+    padding: 30px 150px 40px 150px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+}
+
+.Container .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Container .content .left-side {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+}
+
+.Container .content .left-side::before {
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--green);
+}
+
+.Container .content .left-side .details {
+    margin: 14px;
+    text-align: center;
+}
+
+.Container .content .left-side .details i {
+    font-size: 30px;
+    color: var(--green);
+    margin-bottom: 10px;
+}
+
+.Container .content .left-side .details i:hover {
+    color: var(--dark-color);
+}
+
+.Container .content .left-side .details .topic {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Container .content .left-side .details .text-one,
+.Container .content .left-side .details .text-two {
+    font-size: 14px;
+    color: var(--black);
+}
+
+.Container .content .right-side {
+    width: 75%;
+    margin-left: 75px;
+}
+
+
+.Container .content .right-side .topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: var(--green);
+}
+
+.Container .content .right-side p {
+    font-size: 18px;
+    color: var(--black);
+}
+
+.Container .content .right-side .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.Container .content .right-side .input-box input,
+.Container .content .right-side .input-box textarea {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    background: #fff;
+    padding-left: 15px;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+}
+
+
+.Container .content .right-side .message-box {
+    min-height: 110px;
+}
+
+.Container .content .right-side .button {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+.Container .content .right-side .button input[type="submit"] {
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: var(--green);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Container .content .right-side .button input[type="submit"]:hover {
+    background: var(--dark-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -858,11 +1005,48 @@ section {
 
 }
 
+@media (max-width:952px) {
+    .Container {
+        width: 100%;
+        padding: 30px 35px 40px 50px;
+    }
+}
+
+@media (max-width:820px) {
+    .Container {
+        margin: 40px 0;
+        height: 100%;
+    }
+
+    .Container .content {
+        flex-direction: column-reverse;
+    }
+
+    .Container .content .left-side {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .Container .content .left-side::before {
+        display: none;
+    }
+
+    .Container .content .right-side {
+        width: 100%;
+        margin-left: 0;
+    }
+
+}
+
 @media (max-width:768px) {
 
     .about .about-section {
         padding: 10px;
     }
+
 
     .about .about-section .content-section {
         float: none;
