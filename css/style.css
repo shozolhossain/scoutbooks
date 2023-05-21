@@ -819,6 +819,22 @@ section {
     color: var(--green);
 }
 
+.footer .version {
+    padding: 0 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.footer .version span {
+    color: red;
+
+}
+
+.footer .version span:hover {
+    color: var(--green);
+}
+
 /*loader-container*/
 .loader-container {
     position: fixed;
