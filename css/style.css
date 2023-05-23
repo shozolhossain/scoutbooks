@@ -907,6 +907,10 @@ section {
     height: 40rem;
 }
 
+
+
+
+
 /*dark mode*/
 
 
@@ -1039,6 +1043,8 @@ section {
 .Container .content .right-side .button input[type="submit"]:hover {
     background: var(--dark-color);
 }
+
+
 
 
 
