@@ -170,4 +170,29 @@ var swiper = new Swiper(".blogs-slider", {
     },
 });
 
+var swiper = new Swiper(".video-slider", {
+    spaceBetween: 100,
+    grabCursol: true,
+    loop: true,
+    conteredSlides: true,
+    autoplay: {
+        delay: 9500,
+        disableONIneraction: false,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+
+        },
+        768: {
+            slidesPerView: 2,
+
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+
+    },
+});
+
 
