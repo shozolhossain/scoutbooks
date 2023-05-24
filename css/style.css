@@ -1115,33 +1115,6 @@ section {
 
 @media (max-width:768px) {
 
-    .about .about-section {
-        padding: 10px;
-    }
-
-
-    .about .about-section .content-section {
-        float: none;
-        width: 100%;
-        display: block;
-        margin: auto;
-    }
-
-    .about .about-section .image-section {
-        float: none;
-        width: 100%;
-        display: block;
-        margin: auto;
-    }
-
-    .about .about-section .content-section .title {
-        text-align: center;
-        font-size: 19px;
-    }
-
-    .about .about-section .content-section .content .btn a {
-        text-align: center;
-    }
 
     html {
         scroll-padding-top: 0;

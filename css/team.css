@@ -16,6 +16,12 @@ body {
   text-align: center;
 }
 
+.row p {
+  font-size: 2.2rem;
+  text-align: left;
+
+}
+
 .column {
   width: 100%;
   padding: 0.5em 0;
@@ -58,6 +64,7 @@ h1 {
 }
 
 .card p {
+  text-align: center;
   font-weight: 500;
   font-size: 1.5rem;
   text-transform: uppercase;
@@ -66,7 +73,7 @@ h1 {
 }
 
 .icons {
-  width: 30%;
+  width: 50%;
   font-size: 1.5rem;
   min-width: 100px;
   margin: auto;
