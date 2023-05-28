@@ -1,23 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200;1,300&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #f5f8ff;
-}
-
 .container {
     margin: 0 40px;
-    max-width: 600px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -60,7 +43,7 @@ body {
 }
 
 .container .tab:hover label::after {
-    color: #333;
+    color: #222222;
 }
 
 .container .tab input:checked~label::after {
@@ -107,6 +90,10 @@ body {
 
 .container .tab:nth-child(5) label h2 {
     background: linear-gradient(135deg, #e7534d, #ddad00);
+}
+
+.container .tab:nth-child(6) label h2 {
+    background: linear-gradient(135deg, #e63a3a, #6543fd);
 }
 
 

@@ -1,7 +1,7 @@
 .section {
     width: 100%;
     min-height: 100vh;
-    background-color: #ddd;
+    background-color: #ffffff;
 
 }
 
@@ -67,14 +67,14 @@
 }
 
 .content-section .social-icon {
-    margin: 20px 0px;
+    margin: 25px 0px;
 }
 
 
 .content-section .social-icon i {
-    color: #fff;
+    color: var(--light-color);
     font-size: 30px;
-    padding: 0px 30px;
+    padding: 0px 17px;
 
 }
 
