@@ -563,7 +563,8 @@ section {
 }
 
 .allbooks .allbooks-slider .box .image img {
-    height: 15rem;
+    height: 18rem;
+    border: var(--border);
 }
 
 .allbooks .allbooks-slider .box:hover {
@@ -591,6 +592,19 @@ section {
 .allbooks .allbooks-slider .box .content .stars i {
     font-size: 1.5rem;
     color: var(--green);
+}
+
+.allbooks .allbooks-slider .box .content .download a {
+    height: 2.7rem;
+    width: 2.7rem;
+    line-height: 3rem;
+    font-size: 2.5rem;
+    color: var(--light-color);
+    margin: 0 .2rem;
+}
+
+.allbooks .allbooks-slider .box .content .download a:hover {
+    color: var(--dark-color);
 }
 
 
