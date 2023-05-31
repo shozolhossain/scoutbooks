@@ -557,7 +557,7 @@ section {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     border: var(--border);
     margin: 1rem 0;
 }
@@ -573,7 +573,7 @@ section {
 
 
 .allbooks .allbooks-slider .box .content h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: var(--black);
 }
 
