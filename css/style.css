@@ -879,7 +879,7 @@ section {
     text-align: center;
 }
 
-.footer .credit span {
+.footer .credit span a {
     color: var(--green);
 }
 
