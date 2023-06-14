@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- custom css file link -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blogsreadmore.css">
+    <link rel="stylesheet" href="css/bloodform.css">
     <script type='text/javascript'
         src='https://platform-api.sharethis.com/js/sharethis.js#property=6486fad219ebc20012fab56b&product=sticky-share-buttons'
         async='async'></script>
@@ -22,7 +22,7 @@
 <body>
     <header class="header">
         <div class="header-1">
-            <a href="#" class="logo"><i class="fas fa-book"></i> Scout Books</a>
+            <a href="index.html" class="logo"><i class="fas fa-book"></i> Scout Books</a>
             <form action="" class="search-form">
                 <input type="search" name="" placeholder="search here..." id="search-box" onkeyup="search()">
                 <label for="search-box" class="fas fa-search"></label>
@@ -37,9 +37,9 @@
 
         <div class="header-2">
             <nav class="navbar">
-                <a href="index.html#home"> Home</a>
-                <a href="index.html#featured"> Featured</a>
-                <a href="index.html#allbooks"> All Books</a>
+                <a href="index.html"> Home</a>
+                <a href="index.html"> Featured</a>
+                <a href="allbooks.html"> All Books</a>
                 <a href="worldscout.html"> World Scouts</a>
                 <a href="allvideo.html"> Gallery</a>
                 <a href="blogs.html"> Blogs</a>
@@ -76,41 +76,61 @@
     </div>
 
 
-    <section class="post-header">
-        <div class="header-content post-container">
-            <!--Back to Home-->
-            <a href="blogs.html" class="back-home">Back To Blogs</a>
-            <!--Title-->
-            <h1 class="header-title">অষ্টাদশ আঞ্চলিক রোভার মুট-২০১৭</h1>
-            <!--post image-->
-            <img src="image/Blogs/7.jpg" alt="" class="header-img">
+
+    <!-- blood Form start-->
+    <div class="container">
+        <div class="title">Registration</div>
+        <h2>Blood Donation Form</h2>
+        <p>-প্রতি 3 সেকেন্ডে একজনের রক্তের প্রয়োজন হয়।</p>
+        <p>-যাদের রক্তের দরকার হয় তাদের মধ্যে 20%-ই শিশু।</p>
+        <p>-রক্ত দান করা 100% নিরাপদ।</p>
+        <p>-একজন ডোনারের এক পাইন্ট রক্ত তিন জন মানুষের জীবন বাঁচাতে পারে।</p>
+        <p>-আমাদের মোট জনসংখ্যা 60% মানুষ রক্ত দানে সক্ষম হলেও প্রকৃত পক্ষে দান করেন মাত্র 4% মানুষ।</p>
+        <p>*তাই আসুন, রক্ত দিয়ে অসহায় মানুষকে সহায়তা করার জন্য হাত বাড়াই।</p>
+        <div class="content">
+            <form action="https://formspree.io/f/mayzreao" method="POST">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name</span>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Date of Birth</span>
+                        <input type="text" name="date of bith" id="date of birth" placeholder="Enter your Date of Birth"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Email</span>
+                        <input type="text" name="email" id="email" placeholder="Enter your Number" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number</span>
+                        <input type="text" name="phone number" id="phone number" placeholder="Enter your Email"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Occupation</span>
+                        <input type="text" name="occupation" id="occupation" placeholder="Enter your Occupation"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Blood Group</span>
+                        <input type="text" name="blood group" id="blood group" placeholder="Enter your blood Group"
+                            required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Gender</span>
+                        <input type="text" name="gender" id="gender" placeholder="Enter your blood Group" required>
+                    </div>
+                </div>
+
+                <div class="button-5">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
         </div>
-    </section>
-
-    <!--Posts-->
-    <section class="post-content post-container">
-        <h2 class="sub-heading">অষ্টাদশ আঞ্চলিক রোভার মুট-২০১৭</h2>
-        <p class="post-text">
-            কিছু কিছু সময় এত মধুর যে হাজার চেষ্টা করলেও ভোলা যায় না। এখনো মনে পড়ে সেই সব দিনের কথা।
-        </p>
-        <p class="post-text">
-            স্থান : রোভার স্কাউট প্রশিক্ষণ কেন্দ্র, বাহাদুরপুর, গাজীপুর।
-        </p>
-        <p class="post-text">
-            তারিখঃ ২৬-৩১ ডিসেম্বর।
-        </p>
-        <p class="post-text">
-            অংশগ্রহণেঃ সাবেক সান্তাহার সরকারি কলেজ রোভার গ্রুপের সদস্যরা।
-        </p>
-
-    </section>
-    <!-- ShareThis BEGIN -->
-    <div class="sharethis-inline-reaction-buttons"></div>
-    <!-- ShareThis END -->
-    <div class="share post-container">
-
     </div>
-
+    <!-- Blood form ends-->
 
 
 
@@ -180,10 +200,8 @@
             <a href="https://www.youtube.com/@ShozolTechBD2" target="_blank" class="fa-brands fa-youtube"></a>
         </div>
         <div class="credit">Created by <span><a href="https://www.facebook.com/SMshojol124" target="_blank">Md Shozol
-                    Hossain</a></span>
-            । All Rights Reserved। 2023</div>
+                    Hossain</a></span> । All Rights Reserved। 2023</div>
     </section>
-
 
 
 
@@ -191,6 +209,7 @@
     <div class="loader-container">
         <img src="image/Book loader.gif" alt="">
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- custom js file link -->
     <script src="js/script.js"></script>
