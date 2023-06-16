@@ -1,18 +1,18 @@
-.container {
-    margin: 0 40px;
+.container-5 {
+
     max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.container h1 {
+.container-5 h1 {
     color: #333;
     font-size: 3rem;
     text-align: center;
 }
 
-.container .tab {
+.container-5 .tab {
     position: relative;
     background: #fff;
     align-items: center;
@@ -22,18 +22,18 @@
     overflow: hidden;
 }
 
-.container .tab input {
+.container-5 .tab input {
     appearance: none;
 }
 
-.container .tab label {
+.container-5 .tab label {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
 
-.container .tab label::after {
+.container-5 .tab label::after {
     content: '+';
     position: absolute;
     right: 20px;
@@ -42,16 +42,16 @@
     transition: transform 1s;
 }
 
-.container .tab:hover label::after {
+.container-5 .tab:hover label::after {
     color: #222222;
 }
 
-.container .tab input:checked~label::after {
+.container-5 .tab input:checked~label::after {
     transform: rotate(135deg);
     column-rule: #fff;
 }
 
-.container .tab label h2 {
+.container-5 .tab label h2 {
     width: 40px;
     height: 40px;
     background: #333;
@@ -64,7 +64,7 @@
     margin-right: 10px;
 }
 
-.container .tab input:checked~label h2 {
+.container-5 .tab input:checked~label h2 {
     position: absolute;
     top: 0;
     left: 0;
@@ -76,28 +76,28 @@
     padding: 20px;
 }
 
-.container .tab:nth-child(2) label h2 {
+.container-5 .tab:nth-child(2) label h2 {
     background: linear-gradient(135deg, #439e43, #4bf51d);
 }
 
-.container .tab:nth-child(3) label h2 {
+.container-5 .tab:nth-child(3) label h2 {
     background: linear-gradient(135deg, #3683da, #00eaff);
 }
 
-.container .tab:nth-child(4) label h2 {
+.container-5 .tab:nth-child(4) label h2 {
     background: linear-gradient(135deg, #c400ba, #cc4db9);
 }
 
-.container .tab:nth-child(5) label h2 {
+.container-5 .tab:nth-child(5) label h2 {
     background: linear-gradient(135deg, #e7534d, #ddad00);
 }
 
-.container .tab:nth-child(6) label h2 {
+.container-5 .tab:nth-child(6) label h2 {
     background: linear-gradient(135deg, #e63a3a, #6543fd);
 }
 
 
-.container .tab label h3 {
+.container-5 .tab label h3 {
     position: relative;
     font-size: 2em;
     font-weight: 700;
@@ -105,7 +105,7 @@
     z-index: 10;
 }
 
-.container .tab input:checked~label h3 {
+.container-5 .tab input:checked~label h3 {
     background: #fff;
     padding: 2px 10px;
     color: #333;
@@ -113,18 +113,18 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.container .tab .content {
+.container-5 .tab .content {
     max-height: 0;
     transition: 1s;
     overflow: hidden;
 }
 
-.container .tab input:checked~.content {
+.container-5 .tab input:checked~.content {
     max-height: 100vh;
 }
 
 
-.container .tab .content p {
+.container-5 .tab .content p {
     position: relative;
     padding: 10px 0;
     color: #333;
@@ -132,6 +132,14 @@
     font-size: 1.5rem;
 }
 
-.container .tab input:checked~.content p {
+.container-5 .tab input:checked~.content p {
     color: #fff;
+}
+
+
+@media (max-width:450px) {
+    .container-5 {
+        max-width: 100%;
+        padding: 10px 15px 10px 10px;
+    }
 }

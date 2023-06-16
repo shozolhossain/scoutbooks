@@ -1128,6 +1128,10 @@ section {
 }
 
 @media (max-width:768px) {
+    .Container {
+        width: 100%;
+        padding: 20px 25px 20px 20px;
+    }
 
 
     html {
@@ -1186,5 +1190,9 @@ section {
         font-size: 50%;
     }
 
+    .Container {
+        width: 100%;
+        padding: 10px 15px 10px 10px;
+    }
 
 }
