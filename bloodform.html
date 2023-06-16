@@ -84,7 +84,7 @@
         <p>-আমাদের মোট জনসংখ্যা 60% মানুষ রক্ত দানে সক্ষম হলেও প্রকৃত পক্ষে দান করেন মাত্র 4% মানুষ।</p>
         <p>*তাই আসুন, রক্ত দিয়ে অসহায় মানুষকে সহায়তা করার জন্য হাত বাড়াই।</p>
         <div class="content">
-            <form action="https://formspree.io/f/mayzreao" method="POST">
+            <form name="contact" method="POST" data-netlify="ture" onsubmit="submit">
                 <div class="user-details">
                     <div class="input-box">
                         <span class="details">Full Name</span>
@@ -111,7 +111,7 @@
                     </div>
                     <div class="input-box">
                         <span class="details">Address</span>
-                        <input type="text" name="address" id="address" placeholder="Enter your Occupation" required>
+                        <input type="text" name="address" id="address" placeholder="Enter your address" required>
                     </div>
                     <div class="input-box">
                         <span class="details">Blood Group</span>
@@ -120,20 +120,9 @@
                     </div>
                     <div class="input-box">
                         <span class="details">Gender</span>
-                        <input type="text" name="gender" id="gender" placeholder="Enter your blood Group" required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">What was the last time you donated blood?</span>
-                        <input type="text" name="last time" id="last time" placeholder="Enter your blood Group"
-                            required>
-                    </div>
-                    <div class="input-box">
-                        <span class="details">Have you donated previously?</span>
-                        <input type="text" name="previously" id="previously" placeholder="Enter your blood Group"
-                            required>
+                        <input type="text" name="gender" id="gender" placeholder="Enter your Gender" required>
                     </div>
                 </div>
-
                 <div class="button-5">
                     <input type="submit" value="Register">
                 </div>
